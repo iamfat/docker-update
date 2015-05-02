@@ -3,6 +3,7 @@
 It is a helper to generate commands you need to upgrade your docker containers.
 I just print out all commands instead of run them, so that you could modify them later on.
 
+## Usage
 ```bash
 # update my_container
 docker-update my_container
@@ -15,4 +16,9 @@ docker-update -a
 
 # run it if you want
 `docker-update`
+```
+
+## Installation via PIP
+```bash
+pip install docker-update
 ```
